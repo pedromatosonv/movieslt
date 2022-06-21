@@ -38,7 +38,7 @@ function setMovieListMovies() {
           <img src="${API_IMAGE_URL}/w780/${movieObject.posterPath}" onerror="this.src='https://user-images.githubusercontent.com/24848110/33519396-7e56363c-d79d-11e7-969b-09782f5ccbab.png'" class="fotos-filmes">
         </div>
         <div class="movie_desc">
-          <h4 class="movie_title"><a href="/detalhes.html?movieId=${movieObject.id}" target="_blank">${movieObject.title}</a></h4>
+          <h4 class="movie_title"><a href="detalhes.html?movieId=${movieObject.id}" target="_blank">${movieObject.title}</a></h4>
           <p>Gênero: ${movieObject.genreNames.join(', ')}</p>
           <p>Avaliação: ${movieObject.voteAverage}</p>
           <p>Lançamento: ${movieObject.releaseDate}</p>

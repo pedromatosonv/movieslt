@@ -53,7 +53,7 @@ function setMovieListMovies() {
           <img src="${API_IMAGE_URL}/w780/${movieObject.posterPath}" class="fotos-filmes">
         </div>
         <div class="movie_desc">
-          <h4 class="movie_title"><a href="/detalhes.html?movieId=${movieObject.id}" target="_blank">${movieObject.title}</a></h4>
+          <h4 class="movie_title"><a href="detalhes.html?movieId=${movieObject.id}" target="_blank">${movieObject.title}</a></h4>
           <p>Gênero: ${movieObject.genreNames.join(', ')}</p>
           <p>Avaliação: ${movieObject.voteAverage}</p>
           <p>Lançamento: ${movieObject.releaseDate}</p>
