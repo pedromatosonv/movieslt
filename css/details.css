@@ -1,0 +1,25 @@
+.movies-list {
+  padding: 75px 0;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.movie_image {
+  display: flex;
+  justify-content: center;
+  background: #555;
+}
+
+img {
+  max-width: 100%;
+}
+
+.movie_desc {
+  padding: 1em 2.5em;
+}
